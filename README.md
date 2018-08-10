@@ -107,7 +107,8 @@ A list of instructions how to prepare local environment
 
 ## Install chocolatey
 
-[Chocolatey](https://chocolatey.org/ "https://chocolatey.org/")
+* Execute remote signed scripts -  ``` Set-ExecutionPolicy RemoteSigned```
+* [Chocolatey](https://chocolatey.org/ "https://chocolatey.org/")
 
 ## Add posh git
 
