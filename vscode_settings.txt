@@ -1,0 +1,22 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "window.zoomLevel": 0,
+    "material-icon-theme.showUpdateMessage": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "gitlens.keymap": "alternate",
+   "editor.codeLens": false,
+    "editor.renderWhitespace": "all",
+    "editor.glyphMargin": false,
+    "gitlens.historyExplorer.enabled": true
+}

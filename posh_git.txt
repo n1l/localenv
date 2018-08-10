@@ -1,0 +1,7 @@
+1) Change execution policy:
+    Set-ExecutionPolicy RemoteSigned
+2) Create profile:
+    https://www.howtogeek.com/50236/customizing-your-powershell-profile/
+3 Add poshgit import to the profile:
+    import-module posh-git добавить в профиль
+
