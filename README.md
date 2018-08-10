@@ -78,7 +78,7 @@ A list of instructions how to prepare local environment
 ```
 {
     "extensions.ignoreRecommendations": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "material-icon-theme.showUpdateMessage": false,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
@@ -93,10 +93,13 @@ A list of instructions how to prepare local environment
         "suppressWelcomeNotice": true
     },
     "gitlens.keymap": "alternate",
-   "editor.codeLens": false,
+    "editor.codeLens": false,
     "editor.renderWhitespace": "all",
     "editor.glyphMargin": false,
-    "gitlens.historyExplorer.enabled": true
+    "gitlens.historyExplorer.enabled": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
 }
 
 ```
