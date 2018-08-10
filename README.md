@@ -108,8 +108,8 @@ A list of instructions how to prepare local environment
 
 ## Add posh git
 
-* Change execution policy:
-    ```Set-ExecutionPolicy RemoteSigned```
+* Install module:
+    ```install-module posh-git```
 
 * Create profile:
     [Create and seetup powershell profile](https://www.howtogeek.com/50236/customizing-your-powershell-profile/ "howtogeek.com")
