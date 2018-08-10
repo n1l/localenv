@@ -3,16 +3,16 @@ A list of instructions how to prepare local environment
 
 ## Install necessary software for development
 
-    * git
-    * vscode
-    * visual studio
-    * firefox development edition
-    * far manager
-    * ConEmu
-    * winmerge
-    * postman
-    * sql server
-    * adobe reader
+* git
+* vscode
+* visual studio
+* firefox development edition
+* far manager
+* ConEmu
+* winmerge
+* postman
+* sql server
+* adobe reader
 
 ## Configure conemu like quake terminal
 
@@ -49,29 +49,29 @@ A list of instructions how to prepare local environment
 
 ## Install plugins in visual studio code
 
-    * aaron-bond.better-comments
-    * blairleduc.net-core-starters-pack
-    * christian-kohler.npm-intellisense
-    * christian-kohler.path-intellisense
-    * CoenraadS.bracket-pair-colorizer
-    * dbaeumer.jshint
-    * dbaeumer.vscode-eslint
-    * dbankier.vscode-quick-select
-    * DotJoshJohnson.xml
-    * eamodio.gitlens
-    * EditorConfig.EditorConfig
-    * eg2.tslint
-    * eg2.vscode-npm-script
-    * HookyQR.beautify
-    * humao.rest-client
-    * infeng.vscode-react-typescript
-    * jchannon.csharpextensions
-    * k--kato.docomment
-    * ms-vscode.csharp
-    * ms-vscode.PowerShell
-    * msjsdiag.debugger-for-chrome
-    * PKief.material-icon-theme
-    * ybaumes.highlight-trailing-white-spaces
+* aaron-bond.better-comments
+* blairleduc.net-core-starters-pack
+* christian-kohler.npm-intellisense
+* christian-kohler.path-intellisense
+* CoenraadS.bracket-pair-colorizer
+* dbaeumer.jshint
+* dbaeumer.vscode-eslint
+* dbankier.vscode-quick-select
+* DotJoshJohnson.xml
+* eamodio.gitlens
+* EditorConfig.EditorConfig
+* eg2.tslint
+* eg2.vscode-npm-script
+* HookyQR.beautify
+* humao.rest-client
+* infeng.vscode-react-typescript
+* jchannon.csharpextensions
+* k--kato.docomment
+* ms-vscode.csharp
+* ms-vscode.PowerShell
+* msjsdiag.debugger-for-chrome
+* PKief.material-icon-theme
+* ybaumes.highlight-trailing-white-spaces
 
 ## Change vscode default settings
 
