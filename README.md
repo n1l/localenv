@@ -16,15 +16,15 @@ A list of instructions how to prepare local environment
 
 ## Configure conemu like quake terminal
 
-    [ConEmu quake style](https://conemu.github.io/en/SettingsQuake.html "Settings: Quake style")
+[ConEmu quake style](https://conemu.github.io/en/SettingsQuake.html "Settings: Quake style")
 
 ## Add new ssh keys to github
 
-    [Create new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/ "Generating a new SSH key and adding it to the ssh-agent")
+[Create new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/ "Generating a new SSH key and adding it to the ssh-agent")
 
 ## Change gitconfig
-(inline)
-'
+
+```
 [user]
     name = <username>
     email = <email>
@@ -45,7 +45,7 @@ A list of instructions how to prepare local environment
     tool = code
 [core]
     editor = code --wait
-'
+```
 
 ## Install plugins in visual studio code
 
@@ -74,8 +74,8 @@ A list of instructions how to prepare local environment
     * ybaumes.highlight-trailing-white-spaces
 
 ## Change vscode default settings
-(inline)
-'
+
+```
 {
     "extensions.ignoreRecommendations": true,
     "window.zoomLevel": 0,
@@ -99,21 +99,20 @@ A list of instructions how to prepare local environment
     "gitlens.historyExplorer.enabled": true
 }
 
-'
+```
 
 
 ## Install chocolatey
 
-    [Chocolatey](https://chocolatey.org/ "https://chocolatey.org/")
+[Chocolatey](https://chocolatey.org/ "https://chocolatey.org/")
 
 ## Add posh git
-    * Change execution policy:
-     
-        (inline)  'Set-ExecutionPolicy RemoteSigned'
 
-    * Create profile:
-    
-        [Create and seetup powershell profile](https://www.howtogeek.com/50236/customizing-your-powershell-profile/ "howtogeek.com")
-    
-    * Add poshgit to the profile:
-        (inline) 'import-module posh-git' 
+* Change execution policy:
+    ```Set-ExecutionPolicy RemoteSigned```
+
+* Create profile:
+    [Create and seetup powershell profile](https://www.howtogeek.com/50236/customizing-your-powershell-profile/ "howtogeek.com")
+
+* Add poshgit to the profile:
+    ```import-module posh-git```
