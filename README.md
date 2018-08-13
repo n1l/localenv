@@ -13,6 +13,7 @@ A list of instructions how to prepare local environment
 * postman
 * sql server
 * adobe reader
+* dnspy
 
 ## Configure conemu like quake terminal
 
