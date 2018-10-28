@@ -37,15 +37,18 @@ A list of instructions how to prepare local environment
     co = checkout
     ci = commit
 [difftool "code"]
-    cmd = code  $LOCAL $REMOTE --diff --wait
+    cmd = code  $LOCAL $REMOTE --diff -rw
 [mergetool "code"]
     cmd = code --wait $MERGED
+    keepBackup = false
 [merge]
     tool = code
 [diff]
     tool = code
 [core]
-    editor = code --wait
+    editor = code -rw
+[commit]
+    verbose = 2
 ```
 
 ## Install plugins in visual studio code
