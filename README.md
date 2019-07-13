@@ -82,6 +82,9 @@ A list of instructions how to prepare local environment
 * ms-vscode.PowerShell
 * msjsdiag.debugger-for-chrome
 * ybaumes.highlight-trailing-white-spaces
+* eamodio.gitlens
+* will-stone.plastic
+* usernamehw.errorlens
 
 ## <a name="i-vscode-settings"></a>Change vscode default settings
 
