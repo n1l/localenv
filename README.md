@@ -90,8 +90,7 @@ A list of instructions how to prepare local environment
 
 ```
 {
-    "extensions.ignoreRecommendations": true,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 1,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -107,10 +106,11 @@ A list of instructions how to prepare local environment
     "gitlens.keymap": "alternate",
     "editor.codeLens": false,
     "editor.renderWhitespace": "all",
-    "editor.glyphMargin": false,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "debug.allowBreakpointsEverywhere": true,
+    "workbench.colorTheme": "Plastic - deprioritised punctuation"
 }
 
 ```
