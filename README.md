@@ -10,7 +10,8 @@ A list of instructions how to prepare local environment
 1. [Add ssh keys](#i-ssh)
 1. [Update gitconfig](#i-gitconfig)
 1. [VSCode extensions](#i-vscode-extensions)
-1. [VSCode settings](#i-vscode-settings)
+1. [VSCode user settings](#i-vscode-settings)
+1. [VSCode keyboard settings](#i-vscode-keyboard)
 
 ## <a name="i-choco-install"></a>Install chocolatey
 
@@ -86,7 +87,7 @@ A list of instructions how to prepare local environment
 * will-stone.plastic
 * usernamehw.errorlens
 
-## <a name="i-vscode-settings"></a>Change vscode default settings
+## <a name="i-vscode-settings"></a>Add user settings config
 
 ```
 {
@@ -113,4 +114,18 @@ A list of instructions how to prepare local environment
     "workbench.colorTheme": "Plastic - deprioritised punctuation"
 }
 
+```
+
+## <a name="i-vscode-keyboard"></a>Add keyboard settings
+```
+[
+  {
+    "key": "alt+win+right",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "alt+win+left",
+    "command": "workbench.action.terminal.focusPrevious"
+  }
+]
 ```
