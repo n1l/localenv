@@ -75,6 +75,8 @@ A list of instructions how to prepare local environment
     editor = code -rw
 [commit]
     verbose = 2
+[mergetool]
+    keepBackup = false
 ```
 
 ## <a name="i-vscode-extensions"></a>Install plugins in visual studio code
