@@ -109,7 +109,7 @@ A list of instructions how to prepare local environment
     "gitlens.keymap": "alternate",
     "editor.codeLens": false,
     "editor.renderWhitespace": "all",
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
     "debug.allowBreakpointsEverywhere": true,
