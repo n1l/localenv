@@ -1,0 +1,20 @@
+﻿global:
+  scrape_interval: 10s
+  scrape_timeout: 5s
+
+rule_files:
+
+scrape_configs:
+  - job_name: "prometheus-metrics"
+    scheme: http
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  - job_name: "logging-template-metrics"
+    scheme: https # You may have to change this to 'http'
+                  # or you'd have to create a certificate
+                  # with `host.docker.internal`
+    tls_config:
+      insecure_skip_verify: true
+    static_configs:
+      - targets: ["host.docker.internal:5001"]
